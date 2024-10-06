@@ -1,11 +1,11 @@
 from rest_framework import serializers
-from .models import Purchase
+from .models import Order
 from products.models import Product
 
-class PurchaseSerializer(serializers.ModelSerializer):
+class OrderSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Purchase
-        fields = ['purchase_id', 'product', 'quantity']
+        model = Order
+        fields = ['order_id', 'product', 'quantity']
 
     def validate(self, data):
         product = data['product']
