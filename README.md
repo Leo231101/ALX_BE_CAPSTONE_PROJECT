@@ -29,7 +29,7 @@ This API enables users to:
 
 - Register, log in, and manage their accounts.
 - Create, update, and delete products.
-- Purchase products and manage stock.
+- Order products and manage stock.
 
 ---
 
@@ -90,9 +90,7 @@ This API enables users to:
 
 ## Authentication
 
-This API uses token-based authentication. Users must authenticate via token to interact with most endpoints.
-You can authenticate by logging in or creating a new account
-
+To access the API's features, users are required to authenticate using a token. This token-based authentication method is necessary for interactions with most endpoints. To authenticate, users can either log in with their existing credentials or create a new account
 ---
 
 ## Endpoints
