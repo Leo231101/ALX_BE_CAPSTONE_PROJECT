@@ -4,7 +4,7 @@ Here's a detailed and well-documented README file for your Django E-commerce API
 
 # E-commerce API
 
-This API is built using Django and Django REST Framework to power an e-commerce platform. It provides core functionalities including user authentication, product management, reviews, wishlists, and discounts.
+The API has been constructed using Django and Django REST Framework to drive an e-commerce platform. It delivers essential functionalities, encompassing user authentication, product management, reviews, wishlists, and discounts.
 
 ## Table of Contents
 
@@ -92,8 +92,7 @@ This API enables users to:
 
 ## Authentication
 
-This API uses token-based authentication. Users must authenticate via token to interact with most endpoints.
-You can authenticate by logging in or creating a new account
+To access the API's features, users are required to authenticate using a token. This token-based authentication method is necessary for interactions with most endpoints. To authenticate, users can either log in with their existing credentials or create a new account
 
 ---
 
