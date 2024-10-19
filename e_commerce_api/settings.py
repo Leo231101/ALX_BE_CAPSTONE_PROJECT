@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5=qtn6@9lme4(6lyqhcjo1l9^$8idmn+&+ll=a@x4y$_r-8h5g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['cijethecreator.pythonanywhere.com']
+ALLOWED_HOSTS = ['JuniorAlex.pythonanywhere.com', 'juniorAlex.pythonanywhere.com']
 
 
 # Application definition
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'products',
-    'purchases'
+    'order'
 
 ]
 
