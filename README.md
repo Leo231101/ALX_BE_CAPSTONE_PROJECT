@@ -37,7 +37,7 @@ This API enables users to:
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Django 4.2+
 - Django REST Framework
 - PostgreSQL (or SQLite for development)
